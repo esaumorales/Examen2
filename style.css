@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:  #d4d4d4;
+}
+.container {
+  margin-top: 30px;
+}
+
+.div-empleados {
+  margin-bottom: 20px;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+
+.div-titulo {
+    position: relative;
+    left: -10%;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 35, 38);
+    
+}
+
+.div-titulo h1 {
+    font-weight: 300;
+}
+#puesto{
+    height: 150px;
+    padding-bottom: 120px;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor .div-formulario {
+    width: 30%;
+    height: 90hv;
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+.contenedor .div-listado {
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(135, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+     
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    border: 2px solid black;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+    
+}
+
+.btn-editar {
+    margin-left: 300px;
+    background-color: green;
+}
+
+.btn-eliminar {
+   
+    background-color: red;
+}
+.tabla-empleados {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.tabla-empleados th,
+.tabla-empleados td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla-empleados th {
+  background-color: #f2f2f2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.tabla-empleados td {
+  font-size: 18px;
+}
+
+.btn-accion {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-editar {
+  background-color: #008CBA;
+}
+
+.btn-eliminar {
+  background-color: #f44336;
+}
+
+
+.tabla-empleados {
+    border-collapse: collapse;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
+  .tabla-empleados th,
+  .tabla-empleados td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .tabla-empleados th {
+    background-color: rgb(147, 162, 168);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .tabla-empleados td {
+    font-size: 18px;
+    background-color: white;
+  }
+  
+  
+  .btn-accion {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-editar {
+    background-color: #641645;
+  }
+  
+  .btn-eliminar {
+    background-color: #641645;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th.descripcion {
+    width: 70%;
+  }
+  
+  th.acciones, td.acciones {
+    width: 30%;
+  }
